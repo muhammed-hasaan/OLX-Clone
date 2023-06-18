@@ -1,0 +1,377 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 33px;
+    height: 33px;
+    margin-right: 15px;
+    margin-top: 8px;
+}
+
+.small-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #f1f3f9;
+    padding: 10px 30px;
+}
+
+.actions__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+}
+
+.big-nav {
+    width: 100%;
+    background-color: #f1f3f9;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 30px;
+}
+
+.big-nav .main__logo svg {
+    width: 64px;
+    height: 64px;
+}
+
+.select__options {
+    height: 48px;
+    width: 400px;
+    color: #3f3f3f;
+    border-radius: 5px;
+    border: 2px solid #3f3f3f;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.finding__text {
+    height: 48px;
+    border: 2px solid #3f3f3f;
+    font-size: 17px;
+    width: 890px;
+    padding: 0 0 0 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.login {
+    color: #3f3f3f;
+    border-bottom: 2px solid #3f3f3f;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 19px;
+}
+
+.sell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sell h4 {
+    position: absolute;
+    top: 16px;
+    left: 28px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 210px;
+}
+
+.third-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.list {
+    display: flex;
+    margin-left: 28px;
+    align-items: center;
+}
+
+.list__item {
+    list-style: none;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.category {
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #3f3f3f;
+}
+
+.add-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    background-image: url('https://images.olx.com.pk/thumbnails/363962755-800x600.webp');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 250px;
+    margin: 30px auto;
+}
+
+.refresh__recom {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.refresh__recom h1 {
+    font-size: 30px;
+}
+
+.card__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.card__container .card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-family: "Poppins";
+}
+
+.card h2 {
+    font-size: 16px;
+    font-family: "Poppins";
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.card h3 {
+    font-family: "Poppins";
+    font-size: 22px;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    background-color: black;
+}
+
+
+.card h5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.card h5 #date {
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.load{
+    background-color: #fff;
+    color: #3f3f3f;
+    border: 1px solid #3f3f3f;
+    padding: 10px 30px ;
+    text-align: center;
+    margin: 0 auto;
+    outline: none;
+    cursor: pointer;
+    margin: 20px;
+}
+
+footer{
+    background-color: #ebeeef;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 1px solid #ccc;
+}
+
+.footer__list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 80%;
+    height: 180px;
+    padding: 10px 30px;
+}
+
+.footer__list ul  h6{
+    font-size: 17px;
+    font-weight: 600;
+    color: #002f34;
+}
+
+.footer__list ul li{
+    list-style: none;
+    color: rgba(0, 47, 52, .64);
+    margin-top: 10px;
+}
+
+.footer__botom{
+    background-color: #002f34;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    padding-right: 20px;
+    justify-content: flex-end;
+}
+.login2{
+    display: flex;
+    background: rgba(42, 42, 42, 0.9);
+    justify-content: center;
+    width: 100%;
+    border: 3px solid red;
+    margin-top: -980px;
+    height: 150vh;
+    /* position: sticky; */
+    position: fixed;
+    /* z-index: -1; */
+    align-items:center;
+    border: 2px solid black;
+}
+.login2 .logindiv1{
+    background-color: white;
+    width: 30%;
+    margin-top: 130px;
+    position: fixed;
+    margin-left: 580px;
+    height: 780px;
+    border-radius: 5px;
+}
+.login_img{
+    width: 180px;
+    margin-top: 20px;
+    height: 100px;
+    margin-left: -10px;
+    /* margin-top: 8px; */
+}
+.login2 div h3{
+    font-weight:400;
+    margin-top: 20px;
+    font-size: 23px;
+}
+.login2 div p{
+    font-weight:400;
+    font-size: 20px;
+    font-size: 23px;
+    margin-top: 40px;
+}
+.login2 div .btn_to_login{
+    width: 400px;
+    height: 55px;
+    border: 3px solid black;
+    border-radius:5px;
+    font-weight: 600;
+    background: transparent;
+    font-size: 16px;
+   
+}
+.login2 div .btn_to_login:hover{
+    width: 400px;
+    height: 55px;
+    border: 5px solid black;
+    border-radius:5px;
+    font-weight: 600;
+    font-size: 16px;
+   
+}
+b{
+    color: rgb(46, 168, 255);
+}
+.stick_header{
+    position: fixed;
+    width: 100%;
+}
+.close_login{
+    width: 50px;
+    height: 50px;
+    color: black;
+    display: flex;
+    justify-content: center; 
+    background-color: transparent;
+    
+    align-items: center;
+    border: none;
+    font-size: 50px;
+}
+.login_img_email{
+    width: 50px;
+    height: 50px;
+}
+.loginemail{
+    display: flex;
+    background: rgba(42, 42, 42, 0.9);
+    justify-content: center;
+    width: 100%;
+    border: 3px solid red;
+    margin-top: -1090px;
+    height: 150vh;
+    /* position: sticky; */
+    position: fixed;
+    /* z-index: -1; */
+    align-items:center;
+    border: 2px solid black;
+}
+    .loginemail .logindivemail1{
+        background-color: white;
+        width: 30%;
+        margin-top: 480px;
+        position: fixed;
+        margin-left: 580px;
+        height: 520px;
+        border-radius: 5px;
+    }
+    .loginemail .logindivemail1 .btn_to_login{
+        width: 400px;
+        height: 55px;
+        margin-top: 50px;
+        border: 3px solid black;
+        border-radius:5px;
+        font-weight: 600;
+        background: transparent;
+        font-size: 16px;
+       
+    }
+    /* .btn_to_login{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        justify-content: space-between;
+    } */

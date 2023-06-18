@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Olx Clone</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="stick_header">
+
+        <div class="small-nav">
+           <img class="logo" src="https://1000logos.net/wp-content/uploads/2020/09/OLX-logo-320x183.png" alt="">
+        <div class="actions__link">
+            <svg class="logo2" xmlns="http://www.w3.org/2000/svg" width="88.9" height="33" alt="OLX Motors"
+                class="_1a6eed8f">
+                <defs>
+                    <linearGradient id="a" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#ddd"></stop>
+                        <stop offset="1" stop-color="#fff"></stop>
+                    </linearGradient>
+                </defs>
+                <path stroke="rgba(0,0,0,0)"
+                    d="M40 20.5h1v-6.2l3 6.2h.6l2.8-6.2v6.2h1v-8.3h-1L44.1 19l-3-6.8H40zm18.3-4.2A4.1 4.1 0 0 0 54 12a4.1 4.1 0 0 0-4.2 4.3 4.1 4.1 0 0 0 4.2 4.3 4.1 4.1 0 0 0 4.2-4.3zm-7.3 0a3 3 0 0 1 3-3.3 3 3 0 0 1 3.2 3.3 3 3 0 0 1-3 3.3 3 3 0 0 1-3.2-3.3zm8.2-3.3h2.3v7.5h1V13H65v-1h-5.7zm15 3.3A4.1 4.1 0 0 0 70 12a4.1 4.1 0 0 0-4.2 4.3 4.1 4.1 0 0 0 4.2 4.3 4.1 4.1 0 0 0 4.2-4.3zm-7.2 0a3 3 0 0 1 3-3.3 3 3 0 0 1 3 3.3 3 3 0 0 1-3 3.3 3 3 0 0 1-3-3.3zm13.2-1.7c0 1-.6 1.6-1.8 1.6h-1.6V13h1.6c1.2 0 1.8.6 1.8 1.6zM75.7 12v8.4h1V17H78l2 3.4h1.3l-2-3.5a2.4 2.4 0 0 0 2-2.4c0-1.4-1-2.5-3-2.5zm12.7 6c0-3-4.5-1.7-4.5-3.8 0-1 .7-1.4 1.6-1.4a1.5 1.5 0 0 1 1.6 1.2h1.2a2.5 2.5 0 0 0-2.7-2.1c-1.7 0-2.8 1-2.8 2.3 0 3 4.5 1.7 4.5 4 0 .7-.6 1.3-1.7 1.3a1.5 1.5 0 0 1-1.7-1.4h-1.2c0 1.4 1.3 2.4 3 2.4a2.5 2.5 0 0 0 2.7-2.4z">
+                </path>
+                <path fill="url(#a)" d="M0 16.5a16.5 16.5 0 1 1 33 0 16.5 16.5 0 0 1-33 0z" opacity=".6"></path>
+                <path
+                    d="M24.7 13.5a1.1 1.1 0 0 0-1.4-.7l-.6.2-1-2.2-.4-.1a16 16 0 0 0-4.8-.7 12 12 0 0 0-4.3.7l-.3.1-1 2.3h-.5a1.1 1.1 0 0 0-.6 2v.2a4 4 0 0 0-.4 1.5v4a2.1 2.1 0 0 0 0 .6.7.7 0 0 0 .8.5h1.6a.7.7 0 0 0 .8-.5 2.1 2.1 0 0 0 0-.7v-.3a47.1 47.1 0 0 0 8.3 0v.3a2.1 2.1 0 0 0 0 .7.7.7 0 0 0 .8.5h1.6a.7.7 0 0 0 .7-.5 2.1 2.1 0 0 0 .1-.7v-4a3.7 3.7 0 0 0-.4-1.5V15h.3a1.1 1.1 0 0 0 .7-1.5zm-12.2-2.1a11.3 11.3 0 0 1 4-.6 15.2 15.2 0 0 1 4.6.6l.9 1.8a17.6 17.6 0 0 1-4.3.4H17a28.2 28.2 0 0 1-5.4-.3zm-.6 9.3a2.2 2.2 0 0 1 0 .4h-1.7a2.2 2.2 0 0 1 0-.4V20a1 1 0 0 0 .3 0l1.4.2v.4zm11.4 0a2.2 2.2 0 0 1 0 .4h-1.6a2.2 2.2 0 0 1 0-.4v-.4H23a1 1 0 0 0 .4-.2zm.5-6.5l-1.2.4.5 1a3 3 0 0 1 .3 1.2V18l-.1.7c0 .3-.2.7-.5.7-3 .3-4.5.5-6 .5s-3-.2-6.2-.5c-.2 0-.3-.3-.4-.6V18a17 17 0 0 1 0-1 3.2 3.2 0 0 1 .3-1.3l.5-1-1-.2a.3.3 0 0 1-.2-.4.3.3 0 0 1 .4-.3l1.1.4a23.6 23.6 0 0 0 5 .3h1.4a17.9 17.9 0 0 0 4.6-.5h.3l1-.4a.3.3 0 0 1 .4.3.3.3 0 0 1-.2.4z">
+                </path>
+                <path
+                    d="M12 16a1.2 1.2 0 1 0 1.1 1.2A1.2 1.2 0 0 0 12 16zm0 1.6a.4.4 0 1 1 .3-.4.4.4 0 0 1-.4.4zm9.6-1.6a1.2 1.2 0 1 0 1.2 1.2 1.2 1.2 0 0 0-1.2-1.2zm0 1.6a.4.4 0 1 1 .5-.4.4.4 0 0 1-.5.4zm-7.8.2h6v.8h-6z">
+                </path>
+            </svg>
+            <svg class="logo3" xmlns="http://www.w3.org/2000/svg" width="97.25" height="33" alt="OLX Property"
+                class="_1a6eed8f">
+                <defs>
+                    <linearGradient id="a" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#ddd"></stop>
+                        <stop offset="1" stop-color="#fff"></stop>
+                    </linearGradient>
+                </defs>
+                <path stroke="rgba(0,0,0,0)"
+                    d="M41.1 16.64v-3.07h1.6c1.25 0 1.78.58 1.78 1.55 0 .94-.53 1.52-1.78 1.52zm4.5-1.52c0-1.37-.93-2.45-2.9-2.45H40v8.36h1.1v-3.49h1.6c2.08 0 2.9-1.15 2.9-2.42zm5.82.01c0 .94-.54 1.6-1.77 1.6h-1.6v-3.16h1.6c1.25 0 1.77.61 1.77 1.57zm-4.47-2.46v8.36h1.1v-3.42h1.31l2 3.42h1.3l-2.1-3.5a2.36 2.36 0 0 0 2-2.4c0-1.36-.94-2.45-2.9-2.45zm15.3 4.18a4.12 4.12 0 0 0-4.2-4.28 4.13 4.13 0 0 0-4.2 4.28 4.13 4.13 0 0 0 4.2 4.27 4.12 4.12 0 0 0 4.2-4.27zm-7.3 0a3.05 3.05 0 0 1 3.1-3.33 3.05 3.05 0 0 1 3.07 3.33 3.06 3.06 0 0 1-3.08 3.32 3.06 3.06 0 0 1-3.09-3.32zm9.82-.2v-3.08h1.6c1.25 0 1.78.58 1.78 1.55 0 .94-.53 1.52-1.77 1.52zm4.5-1.53c0-1.36-.93-2.44-2.9-2.44h-2.7v8.35h1.1v-3.49h1.6c2.08 0 2.9-1.15 2.9-2.42zm5.85-2.46h-4.5v8.37h4.5v-.9h-3.4v-2.88h3.04v-.9h-3.04v-2.8h3.4zm6.14 2.48c0 .93-.54 1.6-1.78 1.6h-1.6v-3.17h1.6c1.25 0 1.78.61 1.78 1.57zm-4.48-2.47v8.36h1.1v-3.42h1.32l1.98 3.42h1.3l-2.1-3.5a2.36 2.36 0 0 0 2-2.4c0-1.36-.94-2.45-2.9-2.45zm6.78.9h2.29v7.46h1.1v-7.47h2.27v-.89h-5.66zm9.04 4.3v3.16h1.1v-3.15l2.72-5.2h-1.2l-2.07 4.23-2.07-4.24h-1.2z">
+                </path>
+                <path fill="url(#a)" d="M0 16.5a16.5 16.5 0 1 1 33 0 16.5 16.5 0 0 1-33 0z" opacity=".57"></path>
+                <path
+                    d="M25.03 21.92v-9.35l-4.99-1.66v1.05l4 1.33v8.59h-5V7.85h-8.38v14.08h-.4v1h15.17v-1zm-6.98-11.68v11.68h-6.4V8.84h6.4z">
+                </path>
+                <path
+                    d="M15.17 10.3h1.61v.8h-1.6zm-2.42 0h1.6v.8h-1.6zm2.42 1.6h1.61v.81h-1.6zm-2.42 0h1.6v.81h-1.6zm2.42 2.42h1.61v.81h-1.6zm-2.42 0h1.6v.81h-1.6zm2.42 1.62h1.61v.8h-1.6zm-2.42 0h1.6v.8h-1.6zm2.42 2.42h1.61v.8h-1.6zm-2.42 0h1.6v.8h-1.6zm8.87-4.04h.8v.81h-.8zm-1.62 0h.8v.81H20zm1.62 1.62h.8v.8h-.8zm-1.62 0h.8v.8H20zm1.62 2.42h.8v.8h-.8zm-1.62 0h.8v.8H20z">
+                </path>
+            </svg>
+        </div>
+    </div>
+    <div class="big-nav">
+        <div class="main__logo">
+            <svg height="20" class="logo1" viewBox="0 0 36.289 20.768" alt="Logo" class="_10c831ef">
+                <path
+                    d="M18.9 20.77V0h4.93v20.77zM0 10.39a8.56 8.56 0 1 1 8.56 8.56A8.56 8.56 0 0 1 0 10.4zm5.97-.01a2.6 2.6 0 1 0 2.6-2.6 2.6 2.6 0 0 0-2.6 2.6zm27 5.2l-1.88-1.87-1.87 1.88H25.9V12.3l1.9-1.9-1.9-1.89V5.18h3.27l1.92 1.92 1.93-1.92h3.27v3.33l-1.9 1.9 1.9 1.9v3.27z">
+                </path>
+            </svg>
+        </div>
+        <select class="select__options" id="">
+            <option value="pakisan">Gulshan-e-Iqbal Town, Karachi</option>
+            <option value="pakisan">pakisan</option>
+            <option value="lahore">lahore</option>
+            <option value="peshawer">peshawer</option>
+            <option value="">"landi"</option>
+        </select>
+        <input id="find_item" onchange="itemfind()" class="finding__text" type="text" placeholder="Find Cars , Mobiles Phones and more...">
+        <div class="buttons">
+            <p onclick="login()" class="login">Login</p>
+            <div class="sell">
+                <img src="https://www.olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg"
+
+                    alt="">
+                    <div>
+               <h4  onclick="sellogin()">+Sell</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br><br><br><br><br><br><br>
+    <div class="third-nav">
+        <h4 class="category">All categories</h4>
+        <ul class="list">
+            <li class="list__item">Mobile Phones</li>
+            <li class="list__item">Cars</li>
+            <li class="list__item">Motorcycles</li>
+            <li class="list__item">Houses</li>
+            <li class="list__item">TV - Video - Audio</li>
+            <li class="list__item">Tablets</li>
+            <li class="list__item">Land & Plots</li>
+        </ul>
+    </div>
+    
+    <div class="add-container">
+    </div>
+
+    <div class="refresh__recom">
+        <h1>Fresh recommendations</h1>
+        <div class="card__container" id="card_container">
+           
+        </div>
+        <button class="load">Load More</button>
+    </div>
+    <footer>
+        <div class="footer__list">
+            <ul>
+                <h6>POPULAR CATEGORIES</h6>
+                <li>Cars</li>
+                <li>Flats for rent</li>
+                <li>Mobile Phones</li>
+                <li>Jobs</li>
+            </ul>
+            <ul>
+                <h6>TRENDING SEARCHES</h6>
+                <li>Bikes</li>
+                <li>Watches</li>
+                <li>Books</li>
+                <li>Dogs</li>
+            </ul>
+            <ul>
+                <h6>ABOUT US</h6>
+                <li>About Dubizzle Group</li>
+                <li>OLX Blog</li>
+                <li>Contact Us</li>
+                <li>OLX for Businesses</li>
+            </ul>
+            <ul>
+                <h6>OLX</h6>
+                <li>Help</li>
+                <li>Sitemap</li>
+                <li>Terms of use</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+        <div class="footer__botom">
+            <p>Free Classifieds in Pakistan . © 2006-2023 OLX</p>
+        </div>
+    </footer>
+   
+    <div class="login2" id="loginpage" style="display: none;">
+        <div class="logindiv1" style="text-align: center;">
+            <div style="display:flex; justify-content: flex-end;align-items: center; padding-right: 20px; padding-top: 10px;">
+
+                <button id="close_btn" class="close_login">x</button>
+            </div>
+
+    <svg class = "login_img"  viewBox="0 0 36.289 20.768" alt="Logo" class="_10c831ef">
+        <path d="M18.9 20.77V0h4.93v20.77zM0 10.39a8.56 8.56 0 1 1 8.56 8.56A8.56 8.56 0 0 1 0 10.4zm5.97-.01a2.6 2.6 0 1 0 2.6-2.6 2.6 2.6 0 0 0-2.6 2.6zm27 5.2l-1.88-1.87-1.87 1.88H25.9V12.3l1.9-1.9-1.9-1.89V5.18h3.27l1.92 1.92 1.93-1.92h3.27v3.33l-1.9 1.9 1.9 1.9v3.27z">
+        </path>
+    </svg>
+        <h3>WELCOME TO OLX</h3>
+        <p>The trusted community of <br> buyers and sellers.</p>
+        <br><br><br>
+      <button class="btn_to_login">     Continue With Google</button>
+        <br><br>
+        <button class="btn_to_login"> Continue With Facebook</button>
+        <br><br>
+       <button onclick="contemail()" class="btn_to_login"> Continue With Email</button>
+       <br><br>
+       <button onclick="contphone()" class="btn_to_login"> Continue With Phone</button>
+       <br>
+       <p style="font-size: 12px;">By continuing, you are accepting <br>
+       <b> OLX Terms of use </b> and <b> Privacy Policy</b></p>
+    </div>
+    </div>
+  
+
+
+
+
+
+
+<!-- login with Email -->
+<!-- login with Email -->
+
+    <div class="loginemail" id="loginpageemail" style="display: none;">
+        <div class="logindivemail1" style="text-align: center;">
+            <div style="display:flex; justify-content: space-between;align-items: center; padding-right: 20px; padding-top: 10px;">
+
+                <button  id="back_btn" style="margin-left: 15px;" class="close_login"> <= </button>
+                <button  id="close_btn2" class="close_login">x</button>
+            </div>
+
+    <svg class = "login_img_email"  viewBox="0 0 36.289 20.768" alt="Logo" class="_10c831ef">
+        <path d="M18.9 20.77V0h4.93v20.77zM0 10.39a8.56 8.56 0 1 1 8.56 8.56A8.56 8.56 0 0 1 0 10.4zm5.97-.01a2.6 2.6 0 1 0 2.6-2.6 2.6 2.6 0 0 0-2.6 2.6zm27 5.2l-1.88-1.87-1.87 1.88H25.9V12.3l1.9-1.9-1.9-1.89V5.18h3.27l1.92 1.92 1.93-1.92h3.27v3.33l-1.9 1.9 1.9 1.9v3.27z">
+        </path>
+    </svg>
+    <br><br>
+        <h2>Enter Your Email</h2>
+       <input class="btn_to_login" style="width: 470px; border: 2px solid rgb(97, 216, 255); font-size: 20px; padding-left: 20px; " placeholder="Email" type="text">
+       <button onclick="loginsuccess()" class="btn_to_login" style="  border: none;  background-color: rgba(0,47,52,.36);
+       color: #7f9799;
+       cursor: pointer; width: 470px;">Login</button>
+       <br><br><br><br><br><br>
+      <p style="font-size: 15px;">We won't reveal your email to anyone else nor use it to send you <br> spam.</p>
+       
+    </div>
+    </div>
+
+
+<!-- login with Email -->
+<!-- login with Email -->
+
+
+
+
+
+<!-- login with Phone -->
+<!-- login with Phone -->
+
+<div class="loginemail" id="loginpageemai2" style="display: none;">
+    <div class="logindivemail1" style="text-align: center;">
+        <div style="display:flex; justify-content: space-between;align-items: center; padding-right: 20px; padding-top: 10px;">
+
+            <button  id="back_btn2" style="margin-left: 15px;" class="close_login"> <= </button>
+            <button  id="close_btn3" class="close_login">x</button>
+        </div>
+
+<svg class = "login_img_email"  viewBox="0 0 36.289 20.768" alt="Logo" class="_10c831ef">
+    <path d="M18.9 20.77V0h4.93v20.77zM0 10.39a8.56 8.56 0 1 1 8.56 8.56A8.56 8.56 0 0 1 0 10.4zm5.97-.01a2.6 2.6 0 1 0 2.6-2.6 2.6 2.6 0 0 0-2.6 2.6zm27 5.2l-1.88-1.87-1.87 1.88H25.9V12.3l1.9-1.9-1.9-1.89V5.18h3.27l1.92 1.92 1.93-1.92h3.27v3.33l-1.9 1.9 1.9 1.9v3.27z">
+    </path>
+</svg>
+<br><br>
+<h2>Enter Your Phone</h2>
+<input class="btn_to_login" style="width: 300px; border: 2px solid rgb(97, 216, 255); font-size: 20px; padding-left: 20px;  " placeholder="Email" type="text">
+<button class="btn_to_login" style="  border: none;  background-color: rgba(0,47,52,.36);
+   color: #7f9799;
+   cursor: pointer; width: 470px;">Login</button>
+   <br><br><br><br><br><br>
+  <p style="font-size: 15px;">We won't reveal your email to anyone else nor use it to send you <br> spam.</p>
+   
+</div>
+</div>
+
+
+<!-- login with Phone -->
+<!-- login with Phone -->
+
+
+
+
+
+
+
+<script>
+var data1= JSON.parse(localStorage.getItem("products"))
+
+var close_button = document.getElementById("close_btn");
+close_button.addEventListener("click" , ()=>{
+    var login = document.getElementById("loginpage");
+login.style.display = "none"
+})
+var close_button2 = document.getElementById("close_btn2");
+close_button2.addEventListener("click" , ()=>{
+    var login = document.getElementById("loginpage");
+    var login_email = document.getElementById("loginpageemail");
+
+login.style.display = "none"
+login_email.style.display="none"
+})
+var back_btn1 = document.getElementById("back_btn");
+back_btn1.addEventListener("click" , ()=>{
+    var login = document.getElementById("loginpage");
+    var login_email = document.getElementById("loginpageemail");
+login_email.style.display="none"
+login.style.display = "block"
+})
+
+var close_button3 = document.getElementById("close_btn3");
+close_button3.addEventListener("click" , ()=>{
+    var login = document.getElementById("loginpage");
+    var login_email = document.getElementById("loginpageemai2");
+    
+    login.style.display = "none"
+    login_email.style.display="none"
+})
+
+var back_btn22 = document.getElementById("back_btn2");
+back_btn22.addEventListener("click" , ()=>{
+    var login = document.getElementById("loginpage");
+    var login_email = document.getElementById("loginpageemai2");
+login_email.style.display="none"
+login.style.display = "block"
+})
+
+
+function itemfind() { 
+    var input = document.getElementById("find_item");
+for (let i = 0; i < data.length; i++) {
+   
+    console.log(data[i]);
+   if(data[i].desc == input.value){
+    document.getElementById("card_container").innerHTML =`<div class="card" onclick="detail(${i})">
+                    <img id="img" src="${data[i].img}" alt="">
+                    <p id = "name" style = "display:none;">${data[i].name}</p>
+                    <h2 id="desc">${data[i].desc}</h2>
+                    <h3 id="pric">${data[i].pric}</h3>
+                    <h5 id="locat">${data[i].locat} <div id="date">3 weeks ago</div>
+                        <p id = "cont" style = "display:none;">${data[i].cont}</p>
+                    </h5>
+                </div>`
+            }
+            else{
+                document.getElementById("card_container").innerHTML =
+                      `  <h1>The product is not found</h1>`
+                   
+   }
+    
+}
+}
+
+
+
+       
+
+    data1.map((card , index) => {
+         
+            
+        document.getElementById("card_container").innerHTML+=`<div class="card" onclick="detail(${index})">
+            
+            <img id="img" src="${card.img}" alt="">
+            <br><br>
+            <i style="margin-left:300px; font-size:20px;"  class="fa-regular fa-heart"></i>
+            <p id = "name" style = "display:none ;">${card.name}</p>
+            <p id = "Dd" style = "display:none;">${card.Dd}</p>
+            <h2 style="margin-top:-20px;" id="desc">${card.desc}</h2>
+                    <h3 id="pric">${card.pric}</h3>
+                    <h5 id="locat">${card.locat} <div id="date">3 weeks ago</div>
+                        <p id = "cont" style = "display:none;">${card.cont}</p>
+
+                    </h5>
+                </div>`
+        })
+
+        
+        function detail(Hasaan){
+var username = document.getElementById("name")
+var image = document.getElementById("img")
+var description = document.getElementById("desc")
+var pricing = document.getElementById("pric")
+var location = document.getElementById("locat")
+var contact = document.getElementById("cont")
+var Descrr = document.getElementById("Dd")
+localStorage.setItem("username" ,data1[Hasaan].name)
+localStorage.setItem("image" ,data1[Hasaan].img)
+localStorage.setItem("description" ,data1[Hasaan].desc)
+localStorage.setItem("pricing" ,data1[Hasaan].pric )
+localStorage.setItem("location" , data1[Hasaan].locat)
+localStorage.setItem("contact" , data1[Hasaan].cont)
+localStorage.setItem("Descrr" , data1[Hasaan].Dd)
+window.location.href="./productdetail.html"
+    
+}
+function login(){
+var login = document.getElementById("loginpage");
+login.style.display = "block"
+}
+function sellogin(){
+var login = document.getElementById("loginpage");
+login.style.display = "block"
+}
+function contemail(){
+var login = document.getElementById("loginpage");
+var loginemail = document.getElementById("loginpageemail");
+login.style.display = "none"
+loginemail.style.display = "block"
+}
+function contphone(){
+var login = document.getElementById("loginpage");
+var loginemail = document.getElementById("loginpageemai2");
+login.style.display = "none"
+loginemail.style.display = "block"
+}
+function loginsuccess(){
+alert("You are login Seccess and Your Email is Saved")
+window.location.href="./sell.html"
+}
+
+    </script>
+</body>
+
+</html>
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.00d020d6d9a5e92de35779a72f4cc76a.png">

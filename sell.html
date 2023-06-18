@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        .sell_main_container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60vh;
+        }
+
+        .sell_main_container .Sel_inputs input {
+            width: 600px;
+            padding: 10px 30px;
+            height: 30px;
+            border-radius: 20px;
+            border: 1px solid gray;
+        }
+        h1{
+            font-size: 50px;
+        }
+        #btnSubmit{
+            margin-top: 30px;
+width: 350px;
+height: 50px;
+border-radius: 15px;
+        }
+        img{
+            width: 200px;
+            height: 150px;
+        }
+        input{
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <br><br><br>
+    <center>
+       <img src="https://th.bing.com/th?id=OIP.u3xPYx7OM1cA0T3o-UWuUAHaE6&w=307&h=203&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="">
+    <h1>Sell Your Item</h1>
+    <br><br>
+    </center>
+    <div class="sell_main_container">
+        <div class="Sel_inputs">
+            <input id="UserName" type="text" placeholder="Type Youe Name">
+            <br>
+            <br>
+            <input id="Image" type="text" placeholder="Paste Your Image Link">
+            <br>
+            <br>
+            <input id="Description" type="text" placeholder="Type Your Product Name">
+            <br>
+            <br>
+            <input id="Ddetail" type="text" placeholder="Type Your Product description">
+            <br>
+            <br>
+            <input id="Prices" type="text" placeholder="Tell Your Product Prices">
+            <br>
+            <br>
+            <input id="Location" type="text" placeholder="Type you Location">
+            <br>
+            <br>
+            <input id="contact" type="text" placeholder="Type you Location">
+            <br>
+            <br>
+            <center>
+
+                <button id="btnSubmit">Make a Post</button>
+            </center>
+        </div>
+    </div>
+    <script>
+        var btnsub = document.getElementById("btnSubmit");
+
+        btnsub.addEventListener("click", () => {
+            var name = document.getElementById("UserName").value
+            var img = document.getElementById("Image").value
+            var desc = document.getElementById("Description").value
+            var pric = document.getElementById("Prices").value
+            var locat = document.getElementById("Location").value
+            var cont = document.getElementById("contact").value
+            var Dd = document.getElementById("Ddetail").value
+            var products = []
+
+            // var imgpost = document.getElementById("img_post")
+            // var descpost = document.getElementById("desc_post")
+            // var pricpost = document.getElementById("pric_post")
+            // var locatpost = document.getElementById("locat_post")
+
+
+            // imgpost.src = img
+            // descpost.innerHTML = desc
+            // pricpost.innerHTML = pric
+            // locatpost.innerHTML = locat
+
+
+            let obg = {
+                name: name,
+                img: img,
+                desc: desc,
+                pric: pric,
+                locat: locat,
+                cont:cont,
+                Dd:Dd
+            }
+            products = JSON.parse(localStorage.getItem("products")) ? JSON.parse(localStorage.getItem("products")) : []
+            products.push(obg)
+            localStorage.setItem("products" ,JSON.stringify(products));
+
+            window.location.href="./index.html"
+        })
+    </script>
+</body>
+
+</html>
